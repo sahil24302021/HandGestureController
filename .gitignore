@@ -1,0 +1,20 @@
+# Ignore virtual environment and system files
+venv/
+__pycache__/
+.DS_Store
+*.pyc
+*.pyo
+
+# Ignore large ML / TF libraries
+*.h5
+*.tflite
+*.ckpt
+*.pb
+*.dylib
+*.so
+
+# Ignore weights, cache, and downloads
+weights/
+.cache/
+logs/
+models/
